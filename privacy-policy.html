@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính sách Bảo mật | Savina International Investment Co., Ltd.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #288BAF;
+            --primary-dark: #1e6d8a;
+            --text: #2c3e50;
+            --text-light: #5a6c7d;
+            --bg: #ffffff;
+            --bg-alt: #f7f9fb;
+            --border: #e2e8f0;
+            --radius: 8px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        header {
+            background: var(--primary);
+            color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 18px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .logo span { font-weight: 400; opacity: 0.85; font-size: 14px; margin-left: 8px; }
+        .lang-switch { display: flex; gap: 8px; }
+        .lang-switch a {
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 14px;
+            border: 1px solid rgba(255,255,255,0.4);
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background: rgba(255,255,255,0.2);
+            border-color: #fff;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #fff;
+            text-align: center;
+            padding: 48px 24px 40px;
+        }
+        .hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        .hero p { opacity: 0.9; font-size: 15px; }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        .meta {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 14px;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section { margin-bottom: 36px; }
+        .section h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+        }
+        .section h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 18px 0 8px;
+        }
+        .section p, .section li {
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        .section ul, .section ol {
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+        .section li { margin-bottom: 6px; }
+        .highlight-box {
+            background: var(--bg-alt);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin: 16px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+        table th {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        table tr:nth-child(even) { background: var(--bg-alt); }
+        .divider {
+            border: none;
+            border-top: 3px solid var(--primary);
+            margin: 60px 0;
+            opacity: 0.3;
+        }
+        .english-section {
+            background: var(--bg-alt);
+            padding: 40px 24px;
+            border-radius: var(--radius);
+            margin-top: 48px;
+        }
+        .english-section h2 { color: var(--primary-dark); }
+        footer {
+            background: #1a2a3a;
+            color: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 14px;
+        }
+        footer strong { color: #fff; }
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 22px; }
+            .container { padding: 24px 16px 60px; }
+            .section h2 { font-size: 18px; }
+            body { font-size: 15px; }
+            .header-inner { flex-direction: column; gap: 10px; }
+            table { font-size: 13px; }
+            table th, table td { padding: 8px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="logo">SAVINA<span>International Investment</span></div>
+        <div class="lang-switch">
+            <a href="#vietnamese" class="active">Tiếng Việt</a>
+            <a href="#english">English</a>
+        </div>
+    </div>
+</header>
+
+<div class="hero">
+    <h1>Chính sách Bảo mật</h1>
+    <p>Privacy Policy</p>
+</div>
+
+<div class="container">
+    <div class="meta">
+        <p><strong>Công ty TNHH Đầu tư Quốc tế Savina</strong></p>
+        <p>Cập nhật lần cuối: 23 tháng 4, 2026 | Last updated: April 23, 2026</p>
+    </div>
+
+    <div id="vietnamese">
+
+        <div class="section">
+            <h2>1. Giới thiệu</h2>
+            <p>Công ty TNHH Đầu tư Quốc tế Savina ("Savina", "chúng tôi") cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của bạn. Chính sách Bảo mật này mô tả cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ thông tin của bạn khi bạn sử dụng nền tảng AIOS (AI Operation System), bao gồm các tính năng tích hợp với TikTok và các nền tảng mạng xã hội khác.</p>
+            <p>Chính sách này được xây dựng tuân thủ <strong>Nghị định 13/2023/NĐ-CP về Bảo vệ Dữ liệu Cá nhân</strong> của Việt Nam và các quy định pháp luật liên quan.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Dữ liệu Chúng tôi Thu thập</h2>
+
+            <h3>2.1 Thông tin bạn cung cấp trực tiếp</h3>
+            <ul>
+                <li><strong>Thông tin tài khoản:</strong> Họ tên, địa chỉ email, số điện thoại, mật khẩu đã mã hóa.</li>
+                <li><strong>Thông tin hồ sơ:</strong> Ảnh đại diện, tên hiển thị, thông tin tổ chức (nếu có).</li>
+                <li><strong>Nội dung:</strong> Hình ảnh, video, văn bản và các tài liệu bạn tải lên hoặc tạo trên nền tảng.</li>
+                <li><strong>Thông tin liên lạc:</strong> Nội dung bạn gửi qua email, biểu mẫu hỗ trợ hoặc chat.</li>
+            </ul>
+
+            <h3>2.2 Dữ liệu từ TikTok (qua TikTok OAuth & API)</h3>
+            <div class="highlight-box">
+                <p>Khi bạn liên kết tài khoản TikTok với AIOS, chúng tôi thu thập các dữ liệu sau thông qua TikTok API, với sự đồng ý rõ ràng của bạn:</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Loại dữ liệu</th>
+                        <th>Chi tiết</th>
+                        <th>Mục đích</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hồ sơ TikTok</td>
+                        <td>Tên hiển thị, ảnh đại diện, Open ID, Union ID</td>
+                        <td>Xác thực và liên kết tài khoản</td>
+                    </tr>
+                    <tr>
+                        <td>Danh sách video</td>
+                        <td>Tiêu đề, mô tả, trạng thái đăng tải</td>
+                        <td>Quản lý nội dung đã đăng</td>
+                    </tr>
+                    <tr>
+                        <td>Dữ liệu phân tích</td>
+                        <td>Lượt xem, lượt thích, bình luận, chia sẻ, tỷ lệ tương tác</td>
+                        <td>Báo cáo hiệu suất nội dung</td>
+                    </tr>
+                    <tr>
+                        <td>Thông tin khán giả</td>
+                        <td>Dữ liệu nhân khẩu học tổng hợp (tuổi, giới tính, vị trí địa lý)</td>
+                        <td>Tối ưu hóa chiến lược nội dung</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Lưu ý:</strong> Chúng tôi <u>không</u> thu thập mật khẩu TikTok của bạn. Xác thực được thực hiện thông qua giao thức OAuth 2.0 an toàn của TikTok.</p>
+
+            <h3>2.3 Dữ liệu thu thập tự động</h3>
+            <ul>
+                <li><strong>Dữ liệu thiết bị:</strong> Loại thiết bị, hệ điều hành, trình duyệt, địa chỉ IP.</li>
+                <li><strong>Dữ liệu sử dụng:</strong> Trang truy cập, thời gian sử dụng, tính năng được dùng, nhật ký hoạt động.</li>
+                <li><strong>Cookies và công nghệ tương tự:</strong> Xem Mục 9 về Cookies.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Mục đích Sử dụng Dữ liệu</h2>
+            <p>Chúng tôi sử dụng dữ liệu của bạn cho các mục đích sau:</p>
+            <ul>
+                <li><strong>Cung cấp dịch vụ:</strong> Vận hành nền tảng AIOS, đăng tải nội dung lên TikTok và các nền tảng khác theo yêu cầu của bạn.</li>
+                <li><strong>Phân tích và báo cáo:</strong> Tạo báo cáo hiệu suất nội dung từ dữ liệu TikTok Analytics và các nguồn khác.</li>
+                <li><strong>Cải thiện dịch vụ:</strong> Nâng cao chất lượng nội dung AI, tối ưu hóa trải nghiệm người dùng.</li>
+                <li><strong>Bảo mật:</strong> Phát hiện và ngăn chặn truy cập trái phép, gian lận và lạm dụng.</li>
+                <li><strong>Liên lạc:</strong> Gửi thông báo dịch vụ, cập nhật và hỗ trợ kỹ thuật.</li>
+                <li><strong>Tuân thủ pháp luật:</strong> Đáp ứng yêu cầu của cơ quan có thẩm quyền theo quy định pháp luật Việt Nam.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Chia sẻ Dữ liệu</h2>
+            <h3>4.1 Chia sẻ với TikTok</h3>
+            <p>Khi bạn sử dụng tính năng đăng tải nội dung, AIOS gửi dữ liệu nội dung (video, hình ảnh, văn bản mô tả) tới TikTok thông qua TikTok API. Việc này được thực hiện theo yêu cầu trực tiếp của bạn và tuân thủ chính sách dữ liệu của TikTok.</p>
+
+            <h3>4.2 Bên thứ ba khác</h3>
+            <p>Chúng tôi <strong>không bán</strong> dữ liệu cá nhân của bạn. Chúng tôi chỉ chia sẻ dữ liệu trong các trường hợp sau:</p>
+            <ul>
+                <li><strong>Nhà cung cấp dịch vụ:</strong> Các đối tác kỹ thuật hỗ trợ vận hành (hosting, CDN, phân tích), được ràng buộc bởi hợp đồng bảo mật.</li>
+                <li><strong>Đối tác giáo dục:</strong> Thông tin tuyển sinh được chia sẻ với các trường đại học đối tác (Đại học Thành Đông, Đại học Đồng Tháp) khi bạn đồng ý đăng ký chương trình học.</li>
+                <li><strong>Yêu cầu pháp lý:</strong> Khi có yêu cầu hợp pháp từ cơ quan nhà nước có thẩm quyền.</li>
+                <li><strong>Bảo vệ quyền lợi:</strong> Khi cần thiết để bảo vệ quyền, tài sản hoặc an toàn của Savina, người dùng hoặc công chúng.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Lưu trữ và Bảo quản Dữ liệu</h2>
+            <h3>5.1 Thời gian lưu trữ</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Loại dữ liệu</th>
+                        <th>Thời gian lưu trữ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thông tin tài khoản</td>
+                        <td>Suốt thời gian tài khoản hoạt động + 30 ngày sau khi xóa</td>
+                    </tr>
+                    <tr>
+                        <td>Nội dung đã tạo</td>
+                        <td>Suốt thời gian tài khoản hoạt động, xóa theo yêu cầu</td>
+                    </tr>
+                    <tr>
+                        <td>Dữ liệu TikTok Analytics</td>
+                        <td>Tối đa 24 tháng kể từ ngày thu thập</td>
+                    </tr>
+                    <tr>
+                        <td>Token xác thực TikTok</td>
+                        <td>Cho đến khi bạn hủy liên kết hoặc token hết hạn</td>
+                    </tr>
+                    <tr>
+                        <td>Nhật ký hệ thống</td>
+                        <td>Tối đa 12 tháng</td>
+                    </tr>
+                    <tr>
+                        <td>Dữ liệu thanh toán</td>
+                        <td>Theo quy định kế toán Việt Nam (tối thiểu 5 năm)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>5.2 Vị trí lưu trữ</h3>
+            <p>Dữ liệu được lưu trữ trên máy chủ tại Việt Nam. Trong trường hợp cần chuyển dữ liệu ra nước ngoài (ví dụ: gửi nội dung tới TikTok API), chúng tôi tuân thủ các quy định về chuyển dữ liệu xuyên biên giới theo Nghị định 13/2023/NĐ-CP.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Quyền của Bạn</h2>
+            <p>Theo pháp luật Việt Nam, bạn có các quyền sau đối với dữ liệu cá nhân:</p>
+            <ul>
+                <li><strong>Quyền được biết:</strong> Biết dữ liệu nào được thu thập và cách sử dụng.</li>
+                <li><strong>Quyền đồng ý:</strong> Cho phép hoặc từ chối xử lý dữ liệu cá nhân.</li>
+                <li><strong>Quyền truy cập:</strong> Yêu cầu bản sao dữ liệu cá nhân chúng tôi lưu giữ.</li>
+                <li><strong>Quyền chỉnh sửa:</strong> Yêu cầu sửa đổi thông tin không chính xác.</li>
+                <li><strong>Quyền xóa:</strong> Yêu cầu xóa dữ liệu cá nhân (trừ trường hợp pháp luật yêu cầu giữ lại).</li>
+                <li><strong>Quyền hạn chế xử lý:</strong> Yêu cầu hạn chế việc xử lý dữ liệu trong một số trường hợp.</li>
+                <li><strong>Quyền phản đối:</strong> Phản đối việc xử lý dữ liệu cho một số mục đích nhất định.</li>
+                <li><strong>Quyền di chuyển dữ liệu:</strong> Nhận dữ liệu ở định dạng có cấu trúc, phổ biến.</li>
+                <li><strong>Quyền rút lại đồng ý:</strong> Rút lại sự đồng ý bất cứ lúc nào mà không ảnh hưởng đến tính hợp pháp của việc xử lý trước đó.</li>
+            </ul>
+            <p>Để thực hiện các quyền trên, vui lòng liên hệ <a href="mailto:info@savina.vn">info@savina.vn</a>. Chúng tôi sẽ phản hồi trong vòng 72 giờ.</p>
+
+            <h3>6.1 Quyền liên quan đến TikTok</h3>
+            <p>Ngoài các quyền trên, bạn có thể:</p>
+            <ul>
+                <li>Hủy liên kết tài khoản TikTok khỏi AIOS bất cứ lúc nào.</li>
+                <li>Yêu cầu xóa toàn bộ dữ liệu TikTok đã được lưu trữ trong hệ thống AIOS.</li>
+                <li>Thu hồi quyền truy cập OAuth trực tiếp từ cài đặt TikTok.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Bảo mật Dữ liệu</h2>
+            <p>Chúng tôi áp dụng các biện pháp bảo mật kỹ thuật và tổ chức để bảo vệ dữ liệu của bạn:</p>
+            <ul>
+                <li><strong>Mã hóa:</strong> Dữ liệu được mã hóa trong quá trình truyền tải (TLS 1.2+) và lưu trữ (AES-256).</li>
+                <li><strong>Xác thực:</strong> Hệ thống xác thực đa lớp, token OAuth được lưu trữ an toàn và mã hóa.</li>
+                <li><strong>Kiểm soát truy cập:</strong> Phân quyền dựa trên vai trò (RBAC), nguyên tắc quyền tối thiểu.</li>
+                <li><strong>Giám sát:</strong> Hệ thống giám sát an ninh 24/7, phát hiện xâm nhập.</li>
+                <li><strong>Sao lưu:</strong> Sao lưu dữ liệu định kỳ với cơ chế khôi phục thảm họa.</li>
+                <li><strong>Đào tạo:</strong> Nhân viên được đào tạo về bảo mật thông tin và quy trình xử lý dữ liệu.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Bảo vệ Trẻ em</h2>
+            <p>Dịch vụ AIOS không dành cho người dưới 18 tuổi. Chúng tôi không cố ý thu thập dữ liệu của trẻ em. Nếu phát hiện đã thu thập dữ liệu của người dưới 18 tuổi, chúng tôi sẽ xóa ngay lập tức.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Cookies và Công nghệ Theo dõi</h2>
+            <h3>9.1 Cookies chúng tôi sử dụng</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Loại Cookie</th>
+                        <th>Mục đích</th>
+                        <th>Thời hạn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thiết yếu</td>
+                        <td>Xác thực, bảo mật phiên, cài đặt ngôn ngữ</td>
+                        <td>Phiên / 30 ngày</td>
+                    </tr>
+                    <tr>
+                        <td>Chức năng</td>
+                        <td>Ghi nhớ tùy chọn, giao diện người dùng</td>
+                        <td>1 năm</td>
+                    </tr>
+                    <tr>
+                        <td>Phân tích</td>
+                        <td>Thống kê sử dụng, cải thiện dịch vụ</td>
+                        <td>2 năm</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Chúng tôi <strong>không sử dụng</strong> cookies quảng cáo hoặc theo dõi bên thứ ba. Bạn có thể quản lý cookies trong cài đặt trình duyệt.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Thay đổi Chính sách</h2>
+            <p>Chúng tôi có thể cập nhật Chính sách Bảo mật này theo định kỳ. Thay đổi quan trọng sẽ được thông báo qua email hoặc trên nền tảng ít nhất 15 ngày trước khi có hiệu lực. Phiên bản mới nhất luôn được đăng tại trang này.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Liên hệ</h2>
+            <p>Mọi thắc mắc hoặc yêu cầu liên quan đến bảo mật dữ liệu, vui lòng liên hệ:</p>
+            <div class="highlight-box">
+                <p><strong>Công ty TNHH Đầu tư Quốc tế Savina</strong></p>
+                <p><strong>Bộ phận Bảo vệ Dữ liệu</strong></p>
+                <p>Tầng 12, Tòa nhà Mipec, 229 Tây Sơn, Kim Liên, Đống Đa, Hà Nội, Việt Nam</p>
+                <p>Email: <a href="mailto:info@savina.vn">info@savina.vn</a></p>
+                <p>Điện thoại: 0979 286 220</p>
+                <p>Website: <a href="https://savina.vn">savina.vn</a></p>
+            </div>
+            <p>Nếu bạn không hài lòng với cách chúng tôi xử lý khiếu nại, bạn có quyền khiếu nại đến Cục An ninh mạng và Phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an).</p>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <div id="english" class="english-section">
+        <h2 style="font-size:24px; margin-bottom:24px; text-align:center;">Privacy Policy (English Translation)</h2>
+        <p style="text-align:center; color:var(--text-light); margin-bottom:32px;"><em>This English translation is provided for reference. In case of any discrepancy, the Vietnamese version shall prevail.</em></p>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>Savina International Investment Co., Ltd. ("Savina", "we", "us") is committed to protecting your privacy and personal data. This Privacy Policy describes how we collect, use, store, and protect your information when you use the AIOS (AI Operation System) platform, including features integrated with TikTok and other social media platforms.</p>
+            <p>This policy is developed in compliance with <strong>Vietnam's Decree 13/2023/ND-CP on Personal Data Protection</strong> and related regulations.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Data We Collect</h2>
+            <h3>2.1 Information You Provide</h3>
+            <ul>
+                <li><strong>Account information:</strong> Full name, email address, phone number, encrypted password.</li>
+                <li><strong>Profile information:</strong> Avatar, display name, organization details.</li>
+                <li><strong>Content:</strong> Images, videos, text, and materials you upload or create.</li>
+                <li><strong>Communications:</strong> Messages sent via email, support forms, or chat.</li>
+            </ul>
+
+            <h3>2.2 Data from TikTok (via TikTok OAuth & API)</h3>
+            <p>When you link your TikTok account to AIOS, we collect the following data through TikTok API with your explicit consent:</p>
+            <ul>
+                <li><strong>TikTok profile:</strong> Display name, avatar, Open ID, Union ID — for account authentication and linking.</li>
+                <li><strong>Video list:</strong> Titles, descriptions, publication status — for content management.</li>
+                <li><strong>Analytics data:</strong> Views, likes, comments, shares, engagement rates — for performance reporting.</li>
+                <li><strong>Audience insights:</strong> Aggregated demographics (age, gender, location) — for content strategy optimization.</li>
+            </ul>
+            <p>We do <u>not</u> collect your TikTok password. Authentication is performed through TikTok's secure OAuth 2.0 protocol.</p>
+
+            <h3>2.3 Automatically Collected Data</h3>
+            <ul>
+                <li>Device information (type, OS, browser, IP address)</li>
+                <li>Usage data (pages visited, time spent, features used, activity logs)</li>
+                <li>Cookies and similar technologies (see Section 9)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. How We Use Your Data</h2>
+            <ul>
+                <li><strong>Service delivery:</strong> Operating AIOS, publishing content to TikTok and other platforms as directed by you.</li>
+                <li><strong>Analytics and reporting:</strong> Generating content performance reports from TikTok Analytics and other sources.</li>
+                <li><strong>Service improvement:</strong> Enhancing AI content quality and user experience.</li>
+                <li><strong>Security:</strong> Detecting and preventing unauthorized access, fraud, and abuse.</li>
+                <li><strong>Communication:</strong> Service notifications, updates, and technical support.</li>
+                <li><strong>Legal compliance:</strong> Meeting requirements of competent Vietnamese authorities.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Data Sharing</h2>
+            <h3>4.1 Sharing with TikTok</h3>
+            <p>When you use content publishing features, AIOS sends content data (videos, images, descriptions) to TikTok via TikTok API at your direct request, in compliance with TikTok's data policies.</p>
+            <h3>4.2 Other Third Parties</h3>
+            <p>We <strong>do not sell</strong> your personal data. We share data only with:</p>
+            <ul>
+                <li><strong>Service providers:</strong> Technical partners (hosting, CDN, analytics) bound by confidentiality agreements.</li>
+                <li><strong>Education partners:</strong> Enrollment information shared with partner universities (Thanh Dong University, Dong Thap University) when you consent to program registration.</li>
+                <li><strong>Legal requirements:</strong> When required by lawful government requests.</li>
+                <li><strong>Rights protection:</strong> When necessary to protect Savina's rights, property, or safety.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Data Retention</h2>
+            <ul>
+                <li>Account information: Duration of active account + 30 days after deletion</li>
+                <li>Created content: Duration of active account, deleted on request</li>
+                <li>TikTok Analytics data: Up to 24 months from collection date</li>
+                <li>TikTok OAuth tokens: Until you unlink or token expires</li>
+                <li>System logs: Up to 12 months</li>
+                <li>Payment data: Per Vietnamese accounting regulations (minimum 5 years)</li>
+            </ul>
+            <p>Data is stored on servers in Vietnam. Cross-border data transfers (e.g., to TikTok API) comply with Decree 13/2023/ND-CP.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Your Rights</h2>
+            <p>Under Vietnamese law, you have the right to: know what data is collected and how it is used; consent to or refuse data processing; access copies of your personal data; request corrections; request deletion; restrict processing; object to processing for certain purposes; data portability; and withdraw consent at any time.</p>
+            <p>To exercise these rights, contact <a href="mailto:info@savina.vn">info@savina.vn</a>. We will respond within 72 hours.</p>
+            <h3>TikTok-Specific Rights</h3>
+            <p>You may unlink your TikTok account at any time, request deletion of all stored TikTok data, or revoke OAuth access directly from TikTok settings.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Data Security</h2>
+            <p>We implement technical and organizational security measures including: encryption in transit (TLS 1.2+) and at rest (AES-256); multi-layer authentication with securely stored, encrypted OAuth tokens; role-based access control (RBAC); 24/7 security monitoring and intrusion detection; regular backups with disaster recovery; and staff training on information security.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Children's Privacy</h2>
+            <p>AIOS is not intended for individuals under 18. We do not knowingly collect data from minors. If we discover data from a minor has been collected, it will be deleted immediately.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Cookies</h2>
+            <p>We use essential cookies (authentication, session security), functional cookies (user preferences), and analytics cookies (usage statistics). We do <strong>not</strong> use advertising or third-party tracking cookies. You can manage cookies in your browser settings.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy periodically. Material changes will be communicated via email or on the platform at least 15 days before taking effect.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Contact</h2>
+            <div class="highlight-box">
+                <p><strong>Savina International Investment Co., Ltd.</strong></p>
+                <p><strong>Data Protection Department</strong></p>
+                <p>12th Floor, Mipec Building, 229 Tay Son, Kim Lien, Dong Da, Hanoi, Vietnam</p>
+                <p>Email: <a href="mailto:info@savina.vn">info@savina.vn</a></p>
+                <p>Phone: +84 979 286 220</p>
+                <p>Website: <a href="https://savina.vn">savina.vn</a></p>
+            </div>
+            <p>If you are unsatisfied with our complaint handling, you have the right to file a complaint with the Department of Cyber Security and High-Tech Crime Prevention (Ministry of Public Security).</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p><strong>Savina International Investment Co., Ltd.</strong></p>
+    <p>Tầng 12, Tòa nhà Mipec, 229 Tây Sơn, Kim Liên, Đống Đa, Hà Nội, Việt Nam</p>
+    <p style="margin-top: 8px;">&copy; 2026 Savina. All rights reserved. | <a href="terms-of-service.html">Điều khoản Dịch vụ</a></p>
+</footer>
+
+</body>
+</html>
